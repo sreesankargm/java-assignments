@@ -47,6 +47,6 @@ public class Department {
 
     @Override
     public String toString() {
-        return "Department";
+        return "Dept name: " + this.getName() + ", Building details: " + this.getBuilding();
     }
 }

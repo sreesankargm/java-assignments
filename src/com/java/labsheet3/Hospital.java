@@ -34,7 +34,7 @@ public class Hospital {
 
     @Override
     public String toString() {
-        return "Department";
+        return "Hospital name: " + this.getName() + ", Departments: " + this.getListOfDepartments().toString();
     }
 
 }

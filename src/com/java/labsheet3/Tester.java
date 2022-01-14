@@ -93,6 +93,8 @@ public class Tester {
         System.out.println(department1.getListOfEmployees().toString());
         System.out.println(department2.getListOfEmployees().toString());
 
+        System.out.println(hospital);
+
     }
     
 }

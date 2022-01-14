@@ -30,7 +30,11 @@ public class NonMedicalStaff extends Employee {
     @Override
     public String toString() {
         // TODO Auto-generated method stub
-        return null;
+        return String.format("""
+        Name: %s,
+        Designation: %s,
+        Specialization: %s
+    """, this.getName(), this.getDesignation(), this.isAdministrativeStaff());
     }
     
 }
